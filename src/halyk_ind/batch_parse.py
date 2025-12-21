@@ -1,215 +1,144 @@
-# src/halyk_ind/batch_parse.py
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Batch / single-file parser for Halyk Bank type B (individual) statements."""
-
-from __future__ import annotations
-
 import argparse
-import json
+import traceback
 from pathlib import Path
-from typing import Any, Dict, List, Optional
-
 import pandas as pd
+import tempfile
 
-from .parser import parse_halyk_b_statement
-from src.utils.statement_validation import (
-    validate_statement_generic,
-    HALYK_INDIVIDUAL_SCHEMA,
-)
-from src.utils.income_calc import compute_ip_income
-# ✅ NEW: импортируем генератор JSONL
+from src.halyk_ind.parser import parse_halyk_b_statement
+from src.ui.ui_analysis_report_generator import get_ui_analysis_tables
 from src.utils.convert_pdf_json_pages import dump_pdf_pages
 
 
+def process_halyk_individual_pdf(pdf_path: Path, out_dir: Path) -> None:
+    """
+    Обрабатывает один PDF Halyk Individual:
+      - Конвертирует PDF в JSONL
+      - Парсит данные (header, tx, footer)
+      - Очищает описания операций (извлекает чистые имена ИП)
+      - Генерирует 3 файла аналитики: Топ-9 Дебет, Топ-9 Кредит, Related Parties
+    """
+    print(f"[Halyk Ind] → {pdf_path.name}")
 
-def _ensure_dir(path: Path) -> None:
-    path.mkdir(parents=True, exist_ok=True)
-
-
-def _stem_key(pdf_path: Path) -> str:
-    """Возвращаем базовый stem для файлов: '1 (1).pdf' -> '1 (1)'"""
-    return pdf_path.stem
-
-
-def _json_default(obj: Any) -> Any:
-    """Safe JSON encoder for exotic types (Decimal, etc.)."""
-    raise TypeError(f"Object of type {type(obj).__name__} is not JSON serializable")
-
-
-def process_one_pdf(
-    pdf_path: Path,
-    *,
-    jsonl_dir: Path,
-    out_dir: Path,
-    months_back: Optional[int] = None,
-    verbose: bool = True,
-) -> None:
-    stem = _stem_key(pdf_path)
-
-    # ✅ JSONL target path for this PDF
-    jsonl_path = jsonl_dir / f"{stem}_pages.jsonl"
-
-    # ✅ If JSONL is missing – generate it via dump_pdf_pages()
-    if not jsonl_path.is_file():
-        if verbose:
-            print(f"    [INFO] JSONL not found for {pdf_path.name}, generating...")
-            print(f"          -> {jsonl_path}")
-        try:
-            # jsonl_dir уже существует (проверяется в main),
-            # просто просим dump_pdf_pages писать ровно туда
+    try:
+        with tempfile.TemporaryDirectory() as tmpdir:
+            jsonl_path = Path(tmpdir) / f"{pdf_path.stem}.jsonl"
+            # Генерируем JSONL структуру страниц
             dump_pdf_pages(pdf_path=pdf_path, out_path=jsonl_path)
-        except Exception as e:
-            print(f"    [ERROR] Failed to generate JSONL for {pdf_path.name}: {e}")
-            return
 
-    if verbose:
-        print(f"=== Processing Halyk individual: {pdf_path.name} ===")
-        print(f"    JSONL: {jsonl_path}")
+            # Парсим
+            header_df, tx_df, footer_data = parse_halyk_b_statement(
+                str(jsonl_path),
+                pdf_path=str(pdf_path)
+            )
+    except Exception as e:
+        print(f"   ❌ Ошибка парсинга {pdf_path.name}: {e}")
+        return
 
-    # 1) parse statement (with description enrichment from PDF)
-    header_df, tx_df, footer_df = parse_halyk_b_statement(
-        str(jsonl_path),
-        pdf_path=str(pdf_path),
-    )
+    if tx_df is None or tx_df.empty:
+        print(f"   ⚠️ Транзакции не найдены в {pdf_path.name}")
+        return
 
-    # ✅ footer_df может быть list[dict] из parse_footers → приводим к DataFrame
-    if isinstance(footer_df, list):
-        footer_df = pd.DataFrame(footer_df)
-    elif not isinstance(footer_df, pd.DataFrame):
-        footer_df = pd.DataFrame()
+    stem = pdf_path.stem
+    df_analysis = tx_df.copy()
 
-    # 2) numeric validation
-    flags, debug_info = validate_statement_generic(
-        header_df,
-        tx_df,
-        footer_df,
-        schema=HALYK_INDIVIDUAL_SCHEMA,
-    )
+    # --- НОРМАЛИЗАЦИЯ ДАННЫХ ДЛЯ ГЕНЕРАЦИИ CSV ---
 
-    # 3) ensure KNP column exists
-    if "КНП" not in tx_df.columns:
-        tx_df["КНП"] = ""
+    # 1. Поиск колонки с описанием
+    desc_candidates = ['Описание операции', 'details', 'Назначение платежа', 'operation']
+    actual_desc_col = next((c for c in desc_candidates if c in df_analysis.columns), None)
 
-    # 4) compute IP income
-    # ⚠️ Дату не переопределяем паттернами — используем дефолты из income_calc.
-    enriched_tx, monthly_income, income_summary = compute_ip_income(
-        tx_df,
-        col_op_date="Дата проведения операции",
-        col_credit="Приход в валюте счета",
-        col_knp="КНП",
-        col_purpose="Описание операции",
-        col_counterparty="Описание операции",
-        months_back=months_back,
-        verbose=verbose,
-        max_examples=5,
-    )
+    # 2. Обработка суммы (создаем amount)
+    if 'amount' not in df_analysis.columns:
+        if 'Сумма операции' in df_analysis.columns:
+            df_analysis['amount'] = df_analysis['Сумма операции']
+        elif 'Сумма в KZT' in df_analysis.columns:
+            df_analysis['amount'] = df_analysis['Сумма в KZT']
+        elif 'Доход' in df_analysis.columns and 'Расход' in df_analysis.columns:
+            df_analysis['amount'] = df_analysis['Доход'].fillna(0) - df_analysis['Расход'].fillna(0).abs()
 
-    # 5) build meta
-    meta: Dict[str, Any] = {
-        "pdf_name": pdf_path.name,
-        "pdf_path": str(pdf_path),
-        "jsonl_path": str(jsonl_path),
-        "flags": flags,
-        "validation_debug": debug_info,
-    }
+    # 3. Очистка имен контрагентов согласно требованию
+    if actual_desc_col:
+        def extract_halyk_name(text):
+            if not isinstance(text, str): return "N/A"
+            text = text.strip()
+            prefixes = [
+                "Операция оплаты у коммерсанта ",
+                "Поступление перевода ",
+                "Перевод на другую карту "
+            ]
+            for p in prefixes:
+                if text.startswith(p):
+                    return text[len(p):].strip()
+            return text
 
-    # 6) save outputs
-    _ensure_dir(out_dir)
-    out_header = out_dir / f"{stem}_header.csv"
-    out_tx = out_dir / f"{stem}_tx.csv"
-    out_footer = out_dir / f"{stem}_footer.csv"
-    out_meta = out_dir / f"{stem}_meta.json"
-    out_tx_ip = out_dir / f"{stem}_tx_ip.csv"
-    out_ip_monthly = out_dir / f"{stem}_ip_income_monthly.csv"
-    out_income_summary = out_dir / f"{stem}_income_summary.csv"
-    income_summary_df = pd.DataFrame([income_summary])
+        df_analysis['counterparty_name'] = df_analysis[actual_desc_col].apply(extract_halyk_name)
+        df_analysis['counterparty_id'] = df_analysis['counterparty_name']
+        df_analysis['details'] = df_analysis[actual_desc_col]
 
-    header_df.to_csv(out_header, index=False)
-    tx_df.to_csv(out_tx, index=False)
-    footer_df.to_csv(out_footer, index=False)
-    enriched_tx.to_csv(out_tx_ip, index=False)
-    monthly_income.to_csv(out_ip_monthly, index=False)
-    income_summary_df.to_csv(out_income_summary, index=False)
+    # Приведение к числам
+    df_analysis['amount'] = pd.to_numeric(df_analysis['amount'], errors='coerce').fillna(0.0)
 
-    with open(out_meta, "w", encoding="utf-8") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
+    # --- 4. ГЕНЕРАЦИЯ ФАЙЛОВ АНАЛИТИКИ ---
+    try:
+        analysis_results = get_ui_analysis_tables(df_analysis)
 
-    if verbose:
-        print(f"    ✅ header:    {out_header}")
-        print(f"    ✅ tx:        {out_tx}")
-        print(f"    ✅ footer:    {out_footer}")
-        print(f"    ✅ meta:      {out_meta}")
-        print(f"    ✅ tx_ip:     {out_tx_ip}")
-        print(f"    ✅ ip_month:  {out_ip_monthly}")
-        print(f"    ✅ income summary: {out_income_summary}")
-        print(f"    ✅ Adjusted income: {income_summary['total_income_adjusted']:,.2f}")
+        out_debit = out_dir / f"{stem}_ui_debit_top_9.csv"
+        out_credit = out_dir / f"{stem}_ui_credit_top_9.csv"
+        out_related = out_dir / f"{stem}_ui_related_parties_net.csv"
 
+        pd.DataFrame(analysis_results["debit_top"]).to_csv(out_debit, index=False, encoding="utf-8-sig")
+        pd.DataFrame(analysis_results["credit_top"]).to_csv(out_credit, index=False, encoding="utf-8-sig")
+        pd.DataFrame(analysis_results["related_parties"]).to_csv(out_related, index=False, encoding="utf-8-sig")
 
-def _cli_parse_args() -> argparse.Namespace:
-    ap = argparse.ArgumentParser(
-        description="Batch parser for Halyk Bank type B (individual) statements.",
-    )
-    ap.add_argument("root", help="Root dir with PDFs or a single PDF file")
-    ap.add_argument(
-        "--jsonl-dir",
-        help="Folder to store/load *_pages.jsonl (default: <base_root>/converted_jsons)",
-    )
-    ap.add_argument(
-        "--out-dir",
-        help="Output folder for CSVs (default: <base_root>_out)",
-    )
-    ap.add_argument("--months-back", type=int, default=12)
-    ap.add_argument("--no-verbose", action="store_true")
+        print(f"   ✅ Файлы аналитики сгенерированы")
+    except Exception as e:
+        print(f"   ⚠️ Ошибка генерации файлов аналитики: {e}")
 
-    return ap.parse_args()
+    # 5. Сохранение базовых таблиц
+    if header_df is not None and not header_df.empty:
+        header_df.to_csv(out_dir / f"{stem}_header.csv", index=False, encoding="utf-8-sig")
+
+    tx_df.to_csv(out_dir / f"{stem}_tx.csv", index=False, encoding="utf-8-sig")
+
+    # Исправлено: footer_data может быть списком или DataFrame
+    if footer_data is not None:
+        if isinstance(footer_data, list) and len(footer_data) > 0:
+            pd.DataFrame(footer_data).to_csv(out_dir / f"{stem}_footer.csv", index=False, encoding="utf-8-sig")
+        elif isinstance(footer_data, pd.DataFrame) and not footer_data.empty:
+            footer_data.to_csv(out_dir / f"{stem}_footer.csv", index=False, encoding="utf-8-sig")
 
 
 def main() -> None:
-    args = _cli_parse_args()
-    from pathlib import Path
+    ap = argparse.ArgumentParser(description="Batch parse Halyk Individual statements.")
+    ap.add_argument("input_path", help="Path to folder or PDF file")
+    ap.add_argument("--out-dir", help="Output directory")
 
-    root = Path(args.root)
+    args = ap.parse_args()
+    in_path = Path(args.input_path).resolve()
 
-    # Decide what is "base_dir" and which PDFs to process
-    if root.is_file():
-        pdf_files = [root]
-        base_dir = root.parent
+    if in_path.is_file():
+        files = [in_path]
+        base_out = args.out_dir if args.out_dir else in_path.parent / "halyk_parsed"
     else:
-        if not root.is_dir():
-            raise SystemExit(f"Root path not found or not a directory: {root}")
-        # Adjust glob if your script used something else originally
-        pdf_files = sorted(root.rglob("*.pdf"))
-        base_dir = root
+        if not in_path.is_dir():
+            raise SystemExit(f"Error: path {in_path} not found.")
+        files = sorted(in_path.glob("*.pdf"))
+        base_out = args.out_dir if args.out_dir else in_path / "out"
 
-    if not pdf_files:
-        raise SystemExit(f"No PDF files found under {root}")
-
-    # Always use the folder name as base_name
-    base_name = base_dir.name
-
-    # Smart defaults:
-    #   out_dir     = <parent_of_base_dir>/<base_name>_out
-    #   jsonl_dir   = <base_dir>/converted_jsons
-    out_dir = Path(args.out_dir) if args.out_dir else base_dir.parent / f"{base_name}_out"
-    jsonl_dir = Path(args.jsonl_dir) if args.jsonl_dir else base_dir / "converted_jsons"
-
+    out_dir = Path(base_out)
     out_dir.mkdir(parents=True, exist_ok=True)
-    jsonl_dir.mkdir(parents=True, exist_ok=True)
 
-    print(f"Found {len(pdf_files)} Halyk IND PDF(s) under {root}")
-    print(f"CSV output dir:    {out_dir}")
-    print(f"Pages JSONL dir:   {jsonl_dir}")
+    print(f"Found {len(files)} files. Output directory: {out_dir}")
 
-    for pdf in pdf_files:
-        process_one_pdf(
-            pdf,
-            out_dir=out_dir,
-            jsonl_dir=jsonl_dir,
-            months_back=args.months_back,
-            verbose=not args.no_verbose,
-        )
+    for f in files:
+        try:
+            process_halyk_individual_pdf(f, out_dir)
+        except Exception:
+            print(f"❌ Critical failure on {f.name}:")
+            traceback.print_exc()
 
 
 if __name__ == "__main__":
