@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+34796819.01,34792171.0,2,101,29.09.2025 14:01,Перменова Айсулу Анарбаевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 34 796 819,01 34 792 171', 'Итого операций за период 2 101 1 045', 'Отчет сформирован пользователем Перменова Айсулу Анарбаевна 29.09.2025 14:01', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

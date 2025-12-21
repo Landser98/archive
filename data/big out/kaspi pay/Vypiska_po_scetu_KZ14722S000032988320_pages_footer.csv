@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+6427067.51,6503261.0,542,372,29.09.2025 13:29,Жанибекова Актолкын Намияловна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 6 427 067,51 6 503 261', 'Итого операций за период 542 372', 'Отчет сформирован пользователем Жанибекова Актолкын Намияловна 29.09.2025 13:29', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

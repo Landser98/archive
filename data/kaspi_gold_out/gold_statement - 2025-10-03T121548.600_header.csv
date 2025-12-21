@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+19.09.24,19.09.25,KZ34722C000089299491,тенге,6914,Қанатай Нұршат,*6914,KZ34722C000089299491,19.09.25,200259.84,тенге

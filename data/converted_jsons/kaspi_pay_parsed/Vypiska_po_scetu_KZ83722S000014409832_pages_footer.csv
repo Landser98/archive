@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+40857954.17,39812376.23,1,44,29.09.2025 15:46,СУЕСИНОВА САНИЯ БАЗАРТАЕВНА,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 40 857 954,17 39 812 376,23', 'Итого операций за период 1 044 622', 'Отчет сформирован пользователем СУЕСИНОВА САНИЯ БАЗАРТАЕВНА 29.09.2025 15:46', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

@@ -1,0 +1,1240 @@
+{
+  "file": "data/freedom/vypiska_po_scetu_KZ09551H600074562KZT.pdf",
+  "num_pages": 5,
+  "pdf_version": "1.4",
+  "trailer_keys": [
+    "/Size",
+    "/Root",
+    "/Info",
+    "/ID"
+  ],
+  "metadata": {
+    "/CreationDate": "D:20250923180159+05'00'",
+    "/ModDate": "D:20250923180159+05'00'",
+    "/Producer": "iText 2.1.7 by 1T3XT"
+  },
+  "Root": {
+    "__type__": "Dictionary",
+    "/Pages": {
+      "__type__": "Dictionary",
+      "/Count": 5,
+      "/ITXT": {
+        "__type__": "Indirect",
+        "id": "0:0",
+        "value": {
+          "__type__": "Ref",
+          "ref": "0:0",
+          "note": "already visited"
+        }
+      },
+      "/Kids": [
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/MediaBox": [
+            0,
+            0,
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('841.89')"
+            },
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('595.3')"
+            }
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 5,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F2": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ],
+            "/XObject": {
+              "__type__": "Dictionary",
+              "/img0": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              },
+              "/img1": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              }
+            }
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        },
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/MediaBox": [
+            0,
+            0,
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('841.89')"
+            },
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('595.3')"
+            }
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 5,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ]
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        },
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/MediaBox": [
+            0,
+            0,
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('841.89')"
+            },
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('595.3')"
+            }
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 5,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ]
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        },
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/MediaBox": [
+            0,
+            0,
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('841.89')"
+            },
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('595.3')"
+            }
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 5,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ]
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        },
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/MediaBox": [
+            0,
+            0,
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('841.89')"
+            },
+            {
+              "__type__": "Decimal",
+              "repr": "Decimal('595.3')"
+            }
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 5,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F2": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ],
+            "/XObject": {
+              "__type__": "Dictionary",
+              "/img2": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              }
+            }
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        }
+      ],
+      "/Type": {
+        "__type__": "Name",
+        "value": "/Pages"
+      }
+    },
+    "/Type": {
+      "__type__": "Name",
+      "value": "/Catalog"
+    }
+  },
+  "Pages": [
+    {
+      "index": 1,
+      "obj_id": "8:0",
+      "MediaBox": [
+        0,
+        0,
+        

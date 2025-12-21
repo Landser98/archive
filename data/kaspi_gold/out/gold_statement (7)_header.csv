@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+29.09.24,29.09.25,KZ67722C000019853784,тенге,4198,Жетпіс Тамерлан Маратұлы,*4198,KZ67722C000019853784,29.09.25,3275.0,тенге

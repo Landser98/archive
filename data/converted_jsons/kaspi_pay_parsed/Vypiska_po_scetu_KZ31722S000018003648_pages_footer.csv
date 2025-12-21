@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+8233916.05,8234034.0,67,38,29.09.2025 14:20,Токтасынов Нурлан Алдабергенович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 8 233 916,05 8 234 034', 'Итого операций за период 67 38', 'Отчет сформирован пользователем Токтасынов Нурлан Алдабергенович 29.09.2025 14:20', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

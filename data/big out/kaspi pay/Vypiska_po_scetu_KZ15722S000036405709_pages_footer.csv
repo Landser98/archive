@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+36277631.7,36277652.0,1411,660,29.09.2025 19:36,Рысбек Әйгерім Үсенқызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 36 277 631,7 36 277 652', 'Итого операций за период 1 411 660', 'Отчет сформирован пользователем Рысбек Әйгерім Үсенқызы 29.09.2025 19:36', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

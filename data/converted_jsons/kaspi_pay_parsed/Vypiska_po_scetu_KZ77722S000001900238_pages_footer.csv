@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+22627038.81,22657293.27,1,141,29.09.2025 15:12,Сундетова Алтын,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 22 627 038,81 22 657 293,27', 'Итого операций за период 1 141 350', 'Отчет сформирован пользователем Сундетова Алтын 29.09.2025 15:12', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

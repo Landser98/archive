@@ -1,0 +1,2 @@
+﻿total_income_adjusted,formula,total_sum,max_transaction,min_transaction,mean_transaction,transactions_used
+7628742.105263158,sum - max - min + 2 * mean,7896500.0,425000.0,9000.0,83121.05263157895,95

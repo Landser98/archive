@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+237137949.61,238095622.81,3969,893,03.12.2024 13:45,Бектурсунова Асемгуль Сайрановна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 237 137 949,61 238 095 622,81', 'Итого операций за период 3 969 893', 'Отчет сформирован пользователем Бектурсунова Асемгуль Сайрановна 03.12.2024 13:45', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

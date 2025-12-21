@@ -1,0 +1,3582 @@
+{
+  "file": "data/halyk_bank/halyk_business/Vypiska IP.pdf",
+  "num_pages": 3,
+  "pdf_version": "1.4",
+  "trailer_keys": [
+    "/Root",
+    "/ID",
+    "/Info",
+    "/Size"
+  ],
+  "metadata": {
+    "/CreationDate": "D:20240627170459+05'00'",
+    "/Creator": "JasperReports (Statements)",
+    "/ModDate": "D:20240627170459+05'00'",
+    "/Producer": "iText 2.1.7 by 1T3XT"
+  },
+  "Root": {
+    "__type__": "Dictionary",
+    "/Names": {
+      "__type__": "Dictionary",
+      "/Dests": {
+        "__type__": "Dictionary",
+        "/Names": [
+          {
+            "__type__": "Indirect",
+            "id": "0:0",
+            "value": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            }
+          },
+          [
+            {
+              "__type__": "Dictionary",
+              "/Contents": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              },
+              "/Group": {
+                "__type__": "Dictionary",
+                "/CS": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/S": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/MediaBox": [
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              ],
+              "/Parent": {
+                "__type__": "Dictionary",
+                "/Count": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ITXT": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Kids": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/Resources": {
+                "__type__": "Dictionary",
+                "/ColorSpace": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Font": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ProcSet": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/XObject": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/Type": {
+                "__type__": "Name",
+                "value": "/Page"
+              }
+            },
+            {
+              "__type__": "Name",
+              "value": "/XYZ"
+            },
+            0,
+            852,
+            0
+          ],
+          {
+            "__type__": "Ref",
+            "ref": "0:0",
+            "note": "already visited"
+          },
+          [
+            {
+              "__type__": "Dictionary",
+              "/Contents": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              },
+              "/Group": {
+                "__type__": "Dictionary",
+                "/CS": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/S": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/MediaBox": [
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              ],
+              "/Parent": {
+                "__type__": "Dictionary",
+                "/Count": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ITXT": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Kids": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/Resources": {
+                "__type__": "Dictionary",
+                "/ColorSpace": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Font": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ProcSet": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/Type": {
+                "__type__": "Name",
+                "value": "/Page"
+              }
+            },
+            {
+              "__type__": "Name",
+              "value": "/XYZ"
+            },
+            0,
+            852,
+            0
+          ],
+          {
+            "__type__": "Ref",
+            "ref": "0:0",
+            "note": "already visited"
+          },
+          [
+            {
+              "__type__": "Dictionary",
+              "/Contents": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              },
+              "/Group": {
+                "__type__": "Dictionary",
+                "/CS": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/S": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/MediaBox": [
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              ],
+              "/Parent": {
+                "__type__": "Dictionary",
+                "/Count": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ITXT": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Kids": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/Resources": {
+                "__type__": "Dictionary",
+                "/ColorSpace": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Font": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ProcSet": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/XObject": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/Type": {
+                "__type__": "Name",
+                "value": "/Page"
+              }
+            },
+            {
+              "__type__": "Name",
+              "value": "/XYZ"
+            },
+            0,
+            852,
+            0
+          ]
+        ]
+      }
+    },
+    "/Pages": {
+      "__type__": "Dictionary",
+      "/Count": 3,
+      "/ITXT": {
+        "__type__": "Ref",
+        "ref": "0:0",
+        "note": "already visited"
+      },
+      "/Kids": [
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/Group": {
+            "__type__": "Dictionary",
+            "/CS": {
+              "__type__": "Name",
+              "value": "/DeviceRGB"
+            },
+            "/S": {
+              "__type__": "Name",
+              "value": "/Transparency"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Group"
+            }
+          },
+          "/MediaBox": [
+            0,
+            0,
+            595,
+            842
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 3,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/ColorSpace": {
+              "__type__": "Dictionary",
+              "/CS": {
+                "__type__": "Name",
+                "value": "/DeviceRGB"
+              }
+            },
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F2": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ],
+            "/XObject": {
+              "__type__": "Dictionary",
+              "/img0": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              }
+            }
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        },
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/Group": {
+            "__type__": "Dictionary",
+            "/CS": {
+              "__type__": "Name",
+              "value": "/DeviceRGB"
+            },
+            "/S": {
+              "__type__": "Name",
+              "value": "/Transparency"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Group"
+            }
+          },
+          "/MediaBox": [
+            0,
+            0,
+            595,
+            842
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 3,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/ColorSpace": {
+              "__type__": "Dictionary",
+              "/CS": {
+                "__type__": "Name",
+                "value": "/DeviceRGB"
+              }
+            },
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F2": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ]
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        },
+        {
+          "__type__": "Dictionary",
+          "/Contents": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/Group": {
+            "__type__": "Dictionary",
+            "/CS": {
+              "__type__": "Name",
+              "value": "/DeviceRGB"
+            },
+            "/S": {
+              "__type__": "Name",
+              "value": "/Transparency"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Group"
+            }
+          },
+          "/MediaBox": [
+            0,
+            0,
+            595,
+            842
+          ],
+          "/Parent": {
+            "__type__": "Dictionary",
+            "/Count": 3,
+            "/ITXT": {
+              "__type__": "Ref",
+              "ref": "0:0",
+              "note": "already visited"
+            },
+            "/Kids": [
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              {
+                "__type__": "Dictionary",
+                "/Contents": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Group": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/MediaBox": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Parent": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Resources": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            ],
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Pages"
+            }
+          },
+          "/Resources": {
+            "__type__": "Dictionary",
+            "/ColorSpace": {
+              "__type__": "Dictionary",
+              "/CS": {
+                "__type__": "Name",
+                "value": "/DeviceRGB"
+              }
+            },
+            "/Font": {
+              "__type__": "Dictionary",
+              "/F1": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F2": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              },
+              "/F3": {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/DescendantFonts": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Encoding": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Subtype": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/ToUnicode": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                },
+                "/Type": {
+                  "__type__": "DepthLimit",
+                  "note": "max_depth 6 reached"
+                }
+              }
+            },
+            "/ProcSet": [
+              {
+                "__type__": "Name",
+                "value": "/PDF"
+              },
+              {
+                "__type__": "Name",
+                "value": "/Text"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageB"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageC"
+              },
+              {
+                "__type__": "Name",
+                "value": "/ImageI"
+              }
+            ],
+            "/XObject": {
+              "__type__": "Dictionary",
+              "/img1": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              },
+              "/img2": {
+                "__type__": "Stream",
+                "dict_error": "AttributeError: _dict"
+              }
+            }
+          },
+          "/Type": {
+            "__type__": "Name",
+            "value": "/Page"
+          }
+        }
+      ],
+      "/Type": {
+        "__type__": "Name",
+        "value": "/Pages"
+      }
+    },
+    "/Type": {
+      "__type__": "Name",
+      "value": "/Catalog"
+    },
+    "/ViewerPreferences": {
+      "__type__": "Dictionary",
+      "/PrintScaling": {
+        "__type__": "Name",
+        "value": "/AppDefault"
+      }
+    }
+  },
+  "Pages": [
+    {
+      "index": 1,
+      "obj_id": "1:0",
+      "MediaBox": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "Rotate": 0,
+      "Resources": {
+        "__type__": "Dictionary",
+        "/ColorSpace": {
+          "__type__": "Dictionary",
+          "/CS": {
+            "__type__": "Name",
+            "value": "/DeviceRGB"
+          }
+        },
+        "/Font": {
+          "__type__": "Dictionary",
+          "/F1": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/Helvetica"
+            },
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/WinAnsiEncoding"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type1"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          },
+          "/F2": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/ZXEADP+TimesNewRomanPSMT"
+            },
+            "/DescendantFonts": [
+              {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "Name",
+                  "value": "/ZXEADP+TimesNewRomanPSMT"
+                },
+                "/CIDSystemInfo": {
+                  "__type__": "Dictionary",
+                  "/Ordering": {
+                    "__type__": "Indirect",
+                    "id": "0:0",
+                    "value": {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  },
+                  "/Registry": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Supplement": 0
+                },
+                "/CIDToGIDMap": {
+                  "__type__": "Name",
+                  "value": "/Identity"
+                },
+                "/DW": 1000,
+                "/FontDescriptor": {
+                  "__type__": "Dictionary",
+                  "/Ascent": 693,
+                  "/CapHeight": 699,
+                  "/Descent": -215,
+                  "/Flags": 32,
+                  "/FontBBox": [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  "/FontFile2": {
+                    "__type__": "Stream",
+                    "dict_error": "AttributeError: _dict"
+                  },
+                  "/FontName": {
+                    "__type__": "Name",
+                    "value": "/ZXEADP+TimesNewRomanPSMT"
+                  },
+                  "/ItalicAngle": 0,
+                  "/StemV": 80,
+                  "/Type": {
+                    "__type__": "Name",
+                    "value": "/FontDescriptor"
+                  }
+                },
+                "/Subtype": {
+                  "__type__": "Name",
+                  "value": "/CIDFontType2"
+                },
+                "/Type": {
+                  "__type__": "Name",
+                  "value": "/Font"
+                },
+                "/W": [
+                  3,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  5,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  8,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  11,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  15,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  32,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  36,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  43,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  46,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  49,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  53,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  59,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  61,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  63,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  68,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  70,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  72,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  74,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  76,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  81,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  85,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  92,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  169,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  570,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  577,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  598,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  602,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  629,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  651,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/Identity-H"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type0"
+            },
+            "/ToUnicode": {
+              "__type__": "Stream",
+              "dict_error": "AttributeError: _dict"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          },
+          "/F3": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/BXUZDK+TimesNewRomanPS-BoldMT"
+            },
+            "/DescendantFonts": [
+              {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "Name",
+                  "value": "/BXUZDK+TimesNewRomanPS-BoldMT"
+                },
+                "/CIDSystemInfo": {
+                  "__type__": "Dictionary",
+                  "/Ordering": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Registry": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Supplement": 0
+                },
+                "/CIDToGIDMap": {
+                  "__type__": "Name",
+                  "value": "/Identity"
+                },
+                "/DW": 1000,
+                "/FontDescriptor": {
+                  "__type__": "Dictionary",
+                  "/Ascent": 677,
+                  "/CapHeight": 699,
+                  "/Descent": -215,
+                  "/Flags": 262176,
+                  "/FontBBox": [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  "/FontFile2": {
+                    "__type__": "Stream",
+                    "dict_error": "AttributeError: _dict"
+                  },
+                  "/FontName": {
+                    "__type__": "Name",
+                    "value": "/BXUZDK+TimesNewRomanPS-BoldMT"
+                  },
+                  "/ItalicAngle": 0,
+                  "/StemV": 80,
+                  "/Type": {
+                    "__type__": "Name",
+                    "value": "/FontDescriptor"
+                  }
+                },
+                "/Subtype": {
+                  "__type__": "Name",
+                  "value": "/CIDFontType2"
+                },
+                "/Type": {
+                  "__type__": "Name",
+                  "value": "/Font"
+                },
+                "/W": [
+                  3,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  29,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  570,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  572,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  575,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  578,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  580,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  584,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  587,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  593,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  597,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  603,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  616,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  618,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  620,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  629,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/Identity-H"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type0"
+            },
+            "/ToUnicode": {
+              "__type__": "Stream",
+              "dict_error": "AttributeError: _dict"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          }
+        },
+        "/ProcSet": [
+          {
+            "__type__": "Name",
+            "value": "/PDF"
+          },
+          {
+            "__type__": "Name",
+            "value": "/Text"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageB"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageC"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageI"
+          }
+        ],
+        "/XObject": {
+          "__type__": "Dictionary",
+          "/img0": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          }
+        }
+      },
+      "Contents": {
+        "__type__": "Stream",
+        "dict_error": "AttributeError: _dict"
+      }
+    },
+    {
+      "index": 2,
+      "obj_id": "8:0",
+      "MediaBox": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "Rotate": 0,
+      "Resources": {
+        "__type__": "Dictionary",
+        "/ColorSpace": {
+          "__type__": "Dictionary",
+          "/CS": {
+            "__type__": "Name",
+            "value": "/DeviceRGB"
+          }
+        },
+        "/Font": {
+          "__type__": "Dictionary",
+          "/F1": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/Helvetica"
+            },
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/WinAnsiEncoding"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type1"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          },
+          "/F2": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/ZXEADP+TimesNewRomanPSMT"
+            },
+            "/DescendantFonts": [
+              {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "Name",
+                  "value": "/ZXEADP+TimesNewRomanPSMT"
+                },
+                "/CIDSystemInfo": {
+                  "__type__": "Dictionary",
+                  "/Ordering": {
+                    "__type__": "Indirect",
+                    "id": "0:0",
+                    "value": {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  },
+                  "/Registry": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Supplement": 0
+                },
+                "/CIDToGIDMap": {
+                  "__type__": "Name",
+                  "value": "/Identity"
+                },
+                "/DW": 1000,
+                "/FontDescriptor": {
+                  "__type__": "Dictionary",
+                  "/Ascent": 693,
+                  "/CapHeight": 699,
+                  "/Descent": -215,
+                  "/Flags": 32,
+                  "/FontBBox": [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  "/FontFile2": {
+                    "__type__": "Stream",
+                    "dict_error": "AttributeError: _dict"
+                  },
+                  "/FontName": {
+                    "__type__": "Name",
+                    "value": "/ZXEADP+TimesNewRomanPSMT"
+                  },
+                  "/ItalicAngle": 0,
+                  "/StemV": 80,
+                  "/Type": {
+                    "__type__": "Name",
+                    "value": "/FontDescriptor"
+                  }
+                },
+                "/Subtype": {
+                  "__type__": "Name",
+                  "value": "/CIDFontType2"
+                },
+                "/Type": {
+                  "__type__": "Name",
+                  "value": "/Font"
+                },
+                "/W": [
+                  3,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  5,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  8,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  11,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  15,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  32,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  36,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  43,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  46,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  49,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  53,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  59,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  61,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  63,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  68,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  70,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  72,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  74,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  76,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  81,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  85,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  92,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  169,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  570,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  577,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  598,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  602,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  629,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  651,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/Identity-H"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type0"
+            },
+            "/ToUnicode": {
+              "__type__": "Stream",
+              "dict_error": "AttributeError: _dict"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          }
+        },
+        "/ProcSet": [
+          {
+            "__type__": "Name",
+            "value": "/PDF"
+          },
+          {
+            "__type__": "Name",
+            "value": "/Text"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageB"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageC"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageI"
+          }
+        ]
+      },
+      "Contents": {
+        "__type__": "Stream",
+        "dict_error": "AttributeError: _dict"
+      }
+    },
+    {
+      "index": 3,
+      "obj_id": "10:0",
+      "MediaBox": [
+        0,
+        0,
+        595,
+        842
+      ],
+      "Rotate": 0,
+      "Resources": {
+        "__type__": "Dictionary",
+        "/ColorSpace": {
+          "__type__": "Dictionary",
+          "/CS": {
+            "__type__": "Name",
+            "value": "/DeviceRGB"
+          }
+        },
+        "/Font": {
+          "__type__": "Dictionary",
+          "/F1": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/Helvetica"
+            },
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/WinAnsiEncoding"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type1"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          },
+          "/F2": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/ZXEADP+TimesNewRomanPSMT"
+            },
+            "/DescendantFonts": [
+              {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "Name",
+                  "value": "/ZXEADP+TimesNewRomanPSMT"
+                },
+                "/CIDSystemInfo": {
+                  "__type__": "Dictionary",
+                  "/Ordering": {
+                    "__type__": "Indirect",
+                    "id": "0:0",
+                    "value": {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  },
+                  "/Registry": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Supplement": 0
+                },
+                "/CIDToGIDMap": {
+                  "__type__": "Name",
+                  "value": "/Identity"
+                },
+                "/DW": 1000,
+                "/FontDescriptor": {
+                  "__type__": "Dictionary",
+                  "/Ascent": 693,
+                  "/CapHeight": 699,
+                  "/Descent": -215,
+                  "/Flags": 32,
+                  "/FontBBox": [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  "/FontFile2": {
+                    "__type__": "Stream",
+                    "dict_error": "AttributeError: _dict"
+                  },
+                  "/FontName": {
+                    "__type__": "Name",
+                    "value": "/ZXEADP+TimesNewRomanPSMT"
+                  },
+                  "/ItalicAngle": 0,
+                  "/StemV": 80,
+                  "/Type": {
+                    "__type__": "Name",
+                    "value": "/FontDescriptor"
+                  }
+                },
+                "/Subtype": {
+                  "__type__": "Name",
+                  "value": "/CIDFontType2"
+                },
+                "/Type": {
+                  "__type__": "Name",
+                  "value": "/Font"
+                },
+                "/W": [
+                  3,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  5,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  8,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  11,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  15,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  32,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  36,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  43,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  46,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  49,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  53,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  59,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  61,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  63,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  68,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  70,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  72,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  74,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  76,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  81,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  85,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  92,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  169,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  570,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  577,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  598,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  602,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  629,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  651,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/Identity-H"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type0"
+            },
+            "/ToUnicode": {
+              "__type__": "Stream",
+              "dict_error": "AttributeError: _dict"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          },
+          "/F3": {
+            "__type__": "Dictionary",
+            "/BaseFont": {
+              "__type__": "Name",
+              "value": "/BXUZDK+TimesNewRomanPS-BoldMT"
+            },
+            "/DescendantFonts": [
+              {
+                "__type__": "Dictionary",
+                "/BaseFont": {
+                  "__type__": "Name",
+                  "value": "/BXUZDK+TimesNewRomanPS-BoldMT"
+                },
+                "/CIDSystemInfo": {
+                  "__type__": "Dictionary",
+                  "/Ordering": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Registry": {
+                    "__type__": "Ref",
+                    "ref": "0:0",
+                    "note": "already visited"
+                  },
+                  "/Supplement": 0
+                },
+                "/CIDToGIDMap": {
+                  "__type__": "Name",
+                  "value": "/Identity"
+                },
+                "/DW": 1000,
+                "/FontDescriptor": {
+                  "__type__": "Dictionary",
+                  "/Ascent": 677,
+                  "/CapHeight": 699,
+                  "/Descent": -215,
+                  "/Flags": 262176,
+                  "/FontBBox": [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  "/FontFile2": {
+                    "__type__": "Stream",
+                    "dict_error": "AttributeError: _dict"
+                  },
+                  "/FontName": {
+                    "__type__": "Name",
+                    "value": "/BXUZDK+TimesNewRomanPS-BoldMT"
+                  },
+                  "/ItalicAngle": 0,
+                  "/StemV": 80,
+                  "/Type": {
+                    "__type__": "Name",
+                    "value": "/FontDescriptor"
+                  }
+                },
+                "/Subtype": {
+                  "__type__": "Name",
+                  "value": "/CIDFontType2"
+                },
+                "/Type": {
+                  "__type__": "Name",
+                  "value": "/Font"
+                },
+                "/W": [
+                  3,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  29,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  570,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  572,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  575,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  578,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  580,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  584,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  587,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    },
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  593,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  597,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  603,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  616,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  618,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  620,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ],
+                  629,
+                  [
+                    {
+                      "__type__": "DepthLimit",
+                      "note": "max_depth 6 reached"
+                    }
+                  ]
+                ]
+              }
+            ],
+            "/Encoding": {
+              "__type__": "Name",
+              "value": "/Identity-H"
+            },
+            "/Subtype": {
+              "__type__": "Name",
+              "value": "/Type0"
+            },
+            "/ToUnicode": {
+              "__type__": "Stream",
+              "dict_error": "AttributeError: _dict"
+            },
+            "/Type": {
+              "__type__": "Name",
+              "value": "/Font"
+            }
+          }
+        },
+        "/ProcSet": [
+          {
+            "__type__": "Name",
+            "value": "/PDF"
+          },
+          {
+            "__type__": "Name",
+            "value": "/Text"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageB"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageC"
+          },
+          {
+            "__type__": "Name",
+            "value": "/ImageI"
+          }
+        ],
+        "/XObject": {
+          "__type__": "Dictionary",
+          "/img1": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          },
+          "/img2": {
+            "__type__": "Stream",
+            "dict_error": "AttributeError: _dict"
+          }
+        }
+      },
+      "Contents": {
+        "__type__": "Stream",
+        "dict_error": "AttributeError: _dict"
+      }
+    }
+  ]
+}

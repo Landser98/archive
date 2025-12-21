@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+4293497.13,4354220.51,404,179,29.09.2025 12:32,Исаева Мадина Уразбековна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 4 293 497,13 4 354 220,51', 'Итого операций за период 404 179', 'Отчет сформирован пользователем Исаева Мадина Уразбековна 29.09.2025 12:32', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

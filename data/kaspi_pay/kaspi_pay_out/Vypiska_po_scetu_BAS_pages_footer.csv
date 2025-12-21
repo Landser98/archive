@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+36491260.31,35443877.09,568,303,29.09.2025 18:37,Басибекова Аида Сериковна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 36 491 260,31 35 443 877,09', 'Итого операций за период 568 303', 'Отчет сформирован пользователем Басибекова Аида Сериковна 29.09.2025 18:37', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

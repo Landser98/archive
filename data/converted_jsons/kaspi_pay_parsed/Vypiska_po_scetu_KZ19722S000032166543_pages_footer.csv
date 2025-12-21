@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+77172288.78,77215779.25,1,227,29.09.2025 13:57,Кошкарбаев Максат Мыктыбаевич,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 77 172 288,78 77 215 779,25', 'Итого операций за период 1 227 841', 'Отчет сформирован пользователем Кошкарбаев Максат Мыктыбаевич 29.09.2025 13:57', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

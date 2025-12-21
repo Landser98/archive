@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+5186774.14,5217362.02,797,243,29.09.2025 15:15,Елеубаева Қаракөз Серғазықызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 5 186 774,14 5 217 362,02', 'Итого операций за период 797 243', 'Отчет сформирован пользователем Елеубаева Қаракөз Серғазықызы 29.09.2025 15:15', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

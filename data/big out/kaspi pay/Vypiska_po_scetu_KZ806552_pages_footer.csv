@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+9354822.55,9410185.25,1243,353,22.06.2024 10:41,Уразбаева Асылтас Кайролловна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 9 354 822,55 9 410 185,25', 'Итого операций за период 1 243 353', 'Отчет сформирован пользователем Уразбаева Асылтас Кайролловна 22.06.2024 10:41', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

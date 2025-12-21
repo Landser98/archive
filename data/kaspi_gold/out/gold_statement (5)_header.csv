@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+01.09.24,30.09.24,KZ75722C000014899462,тенге,5081,Кундызбаева Алма Гиззатовна,*5081,KZ75722C000014899462,30.09.24,3726.62,тенге

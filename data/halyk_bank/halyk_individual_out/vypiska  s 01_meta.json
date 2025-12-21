@@ -1,0 +1,22 @@
+{
+  "pdf_name": "vypiska  s 01.pdf",
+  "pdf_path": "data/halyk_bank/halyk_individual/vypiska  s 01.pdf",
+  "jsonl_path": "data/halyk_bank/halyk_individual/converted_jsons/vypiska  s 01_pages.jsonl",
+  "flags": [
+    "closing_balance_mismatch"
+  ],
+  "validation_debug": {
+    "period_start": "01.10.2024",
+    "period_end": "30.09.2025",
+    "opening": 0.0,
+    "closing_pdf": -770165.0,
+    "closing_calc": 7640000.0,
+    "total_credit": 3821000.0,
+    "total_debit": -3819000.0,
+    "header_credit_turnover": null,
+    "header_debit_turnover": null,
+    "footer_credit": null,
+    "footer_debit": null,
+    "tolerance": 0.01
+  }
+}

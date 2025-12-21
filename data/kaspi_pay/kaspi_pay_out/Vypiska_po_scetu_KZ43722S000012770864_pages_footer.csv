@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+4752535.31,4746460.0,437,240,29.09.2025 16:03,Сайдашева Роза Сагынгалиевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 4 752 535,31 4 746 460', 'Итого операций за период 437 240', 'Отчет сформирован пользователем Сайдашева Роза Сагынгалиевна 29.09.2025 16:03', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+5000000.3,4500000.0,17,9,11.07.2024 23:46,Орынбасар Наурызбек Ерланұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 5 000 000,3 4 500 000', 'Итого операций за период 17 9', 'Отчет сформирован пользователем Орынбасар Наурызбек Ерланұлы 11.07.2024 23:46', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

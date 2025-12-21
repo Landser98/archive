@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+94902286.96,94902209.5,280,62,29.09.2025 15:47,Иманмади Әділет Қалелханұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 94 902 286,96 94 902 209,5', 'Итого операций за период 280 62', 'Отчет сформирован пользователем Иманмади Әділет Қалелханұлы 29.09.2025 15:47', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

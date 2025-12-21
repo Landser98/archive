@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+19442501.0,19442655.0,103,45,29.09.2025 14:29,Пуган Диана Анатольевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 19 442 501 19 442 655', 'Итого операций за период 103 45', 'Отчет сформирован пользователем Пуган Диана Анатольевна 29.09.2025 14:29', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

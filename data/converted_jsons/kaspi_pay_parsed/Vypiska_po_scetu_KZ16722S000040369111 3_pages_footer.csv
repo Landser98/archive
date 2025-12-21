@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+11024104.23,11006642.0,1,214,29.09.2025 12:55,Конурбаев Диас Мейрамғазыұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 11 024 104,23 11 006 642', 'Итого операций за период 1 214 561', 'Отчет сформирован пользователем Конурбаев Диас Мейрамғазыұлы 29.09.2025 12:55', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

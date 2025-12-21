@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+222901235.7,223049980.9,5,332,29.09.2025 13:15,Шонкебай Гулдана Талғатқызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 222 901 235,7 223 049 980,9', 'Итого операций за период 5 332 1 200', 'Отчет сформирован пользователем Шонкебай Гулдана Талғатқызы 29.09.2025 13:15', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

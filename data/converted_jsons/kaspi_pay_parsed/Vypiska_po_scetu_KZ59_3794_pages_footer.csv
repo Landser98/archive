@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+9274479.81,9300904.0,1,463,29.09.2025 13:00,Беркимбаева Гулнур Аскаровна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 9 274 479,81 9 300 904', 'Итого операций за период 1 463 656', 'Отчет сформирован пользователем Беркимбаева Гулнур Аскаровна 29.09.2025 13:00', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

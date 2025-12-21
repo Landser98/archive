@@ -1,0 +1,43 @@
+﻿page,date,amount,operation,details,clock_icon,amount_text,txn_date,kp_person_name,kp_is_related_party,kp_outgoing_share_pct,kp_exclude_from_income,valid_for_ip_income,КНП,ip_text,ip_knp_norm,ip_op_date,ip_is_non_business_by_knp,ip_is_non_business_by_keywords,ip_is_non_business,ip_credit_amount,ip_is_business_income
+0,28.08.25,-27.25,,,False,"- 27,25 ₸ Зат сатып алу      Samira",2025-08-28,,False,,False,True,,,,2025-08-28,False,False,False,-27.25,False
+1,13.08.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-08-13,,False,,False,True,,,,2025-08-13,False,False,False,-50.0,False
+2,10.08.25,-80.0,,,False,"- 80,00 ₸ Зат сатып алу      Samira",2025-08-10,,False,,False,True,,,,2025-08-10,False,False,False,-80.0,False
+4,29.07.25,47.5,,,False,"- 47,50 ₸ Əртүрлі      Лимиттен тыс қолма-қол ақша алғаны үшін комиссия",2025-07-29,,False,,False,True,,,,2025-07-29,False,False,False,47.5,True
+5,20.07.25,-30.0,,,False,"- 30,00 ₸ Зат сатып алу      Samira",2025-07-20,,False,,False,True,,,,2025-07-20,False,False,False,-30.0,False
+6,18.07.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-07-18,,False,,False,True,,,,2025-07-18,False,False,False,-50.0,False
+8,03.07.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-07-03,,False,,False,True,,,,2025-07-03,False,False,False,-50.0,False
+9,21.06.25,-35.15,,,False,"- 35,15 ₸ Зат сатып алу      Аппарат самообслуживания",2025-06-21,,False,,False,True,,,,2025-06-21,False,False,False,-35.15,False
+10,18.06.25,-40.0,,,False,"- 40,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-06-18,,False,,False,True,,,,2025-06-18,False,False,False,-40.0,False
+11,13.06.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-06-13,,False,,False,True,,,,2025-06-13,False,False,False,-50.0,False
+13,27.05.25,-20.0,,,False,"- 20,00 ₸ Зат сатып алу      Samira",2025-05-27,,False,,False,True,,,,2025-05-27,False,False,False,-20.0,False
+15,22.05.25,-50.0,,,False,"- 50,00 ",2025-05-22,,False,,False,True,,,,2025-05-22,False,False,False,-50.0,False
+16,15.05.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-05-15,,False,,False,True,,,,2025-05-15,False,False,False,-50.0,False
+17,09.05.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-05-09,,False,,False,True,,,,2025-05-09,False,False,False,-50.0,False
+17,08.05.25,-39.55,,,False,"- 39,55 ",2025-05-08,,False,,False,True,,,,2025-05-08,False,False,False,-39.55,False
+19,28.04.25,-94.5,,,False,"- 94,50 ₸ Зат сатып алу      Атамұра магазин",2025-04-28,,False,,False,True,,,,2025-04-28,False,False,False,-94.5,False
+21,11.04.25,-60.0,,,False,"- 60,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-04-11,,False,,False,True,,,,2025-04-11,False,False,False,-60.0,False
+23,03.04.25,-10.0,,,False,"- 10,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-04-03,,False,,False,True,,,,2025-04-03,False,False,False,-10.0,False
+24,24.03.25,20.0,,,True,"+ 20,00 ₸ Зат сатып алу      Yandex Go",2025-03-24,,False,,False,True,,,,2025-03-24,False,False,False,20.0,True
+24,24.03.25,-20.0,,,True,"- 20,00 ₸ Зат сатып алу      Yandex Go",2025-03-24,,False,,False,True,,,,2025-03-24,False,False,False,-20.0,False
+26,14.03.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-03-14,,False,,False,True,,,,2025-03-14,False,False,False,-50.0,False
+26,12.03.25,-40.0,,,False,"- 40,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-03-12,,False,,False,True,,,,2025-03-12,False,False,False,-40.0,False
+27,09.03.25,-40.0,,,False,"- 40,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-03-09,,False,,False,True,,,,2025-03-09,False,False,False,-40.0,False
+27,04.03.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-03-04,,False,,False,True,,,,2025-03-04,False,False,False,-50.0,False
+28,28.02.25,-40.0,,,False,"- 40,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-02-28,,False,,False,True,,,,2025-02-28,False,False,False,-40.0,False
+29,20.02.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-02-20,,False,,False,True,,,,2025-02-20,False,False,False,-50.0,False
+30,12.02.25,20.0,,,False,"+ 20,00 ₸ Толықтыру      Өз Kaspi Pay Шотыңыздан",2025-02-12,,False,,False,True,,,,2025-02-12,False,False,False,20.0,True
+30,11.02.25,-98.0,,,False,"- 98,00 ₸ Зат сатып алу      Samira",2025-02-11,,False,,False,True,,,,2025-02-11,False,False,False,-98.0,False
+32,04.02.25,-50.0,,,False,"- 50,00 ₸ Зат сатып алу      Аппарат самообслуживания",2025-02-04,,False,,False,True,,,,2025-02-04,False,False,False,-50.0,False
+33,31.01.25,-52.5,,,False,"- 52,50 ₸ Зат сатып алу      Атамұра магазин",2025-01-31,,False,,False,True,,,,2025-01-31,False,False,False,-52.5,False
+34,14.01.25,83.0,,,False,"+ 83,00 ₸ Зат сатып алу      Magnum",2025-01-14,,False,,False,True,,,,2025-01-14,False,False,False,83.0,True
+35,02.01.25,21.0,,,False,"+ 21,00 ₸ Зат сатып алу      Magnum",2025-01-02,,False,,False,True,,,,2025-01-02,False,False,False,21.0,True
+37,12.12.24,-60.05,,,False,"- 60,05 ₸ Зат сатып алу      Samira",2024-12-12,,False,,False,True,,,,2024-12-12,False,False,False,-60.05,False
+39,15.11.24,-45.0,,,False,"- 45,00 ₸ Зат сатып алу      Аппарат самообслуживания",2024-11-15,,False,,False,True,,,,2024-11-15,False,False,False,-45.0,False
+40,14.11.24,-97.83,,,False,"- 97,83 ",2024-11-14,,False,,False,True,,,,2024-11-14,False,False,False,-97.83,False
+41,08.11.24,-62.66,,,False,"- 62,66 ",2024-11-08,,False,,False,True,,,,2024-11-08,False,False,False,-62.66,False
+41,02.11.24,-75.0,,,False,"- 75,00 ₸ Зат сатып алу      Аппарат самообслуживания",2024-11-02,,False,,False,True,,,,2024-11-02,False,False,False,-75.0,False
+41,28.10.24,-75.0,,,False,"- 75,00 ₸ Зат сатып алу      Аппарат самообслуживания",2024-10-28,,False,,False,True,,,,2024-10-28,False,False,False,-75.0,False
+44,07.10.24,-45.0,,,False,"- 45,00 ₸ Зат сатып алу      Аппарат самообслуживания",2024-10-07,,False,,False,True,,,,2024-10-07,False,False,False,-45.0,False
+46,01.10.24,-40.0,,,False,"- 40,00 ₸ Зат сатып алу      ИП Искакова",2024-10-01,,False,,False,True,,,,2024-10-01,False,False,False,-40.0,False
+46,30.09.24,-20.0,,,False,"- 20,00 ₸ Зат сатып алу      ИП Искакова",2024-09-30,,False,,False,True,,,,2024-09-30,False,False,False,-20.0,False
+50,03.09.24,-31.4,,,False,"- 31,40 ",2024-09-03,,False,,False,True,,,,2024-09-03,False,False,False,-31.4,False

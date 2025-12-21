@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+4253835.0,4253835.0,276,94,29.09.2025 16:20,Кулукова Карагоз Нуржановна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 4 253 835 4 253 835', 'Итого операций за период 276 94', 'Отчет сформирован пользователем Кулукова Карагоз Нуржановна 29.09.2025 16:20', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

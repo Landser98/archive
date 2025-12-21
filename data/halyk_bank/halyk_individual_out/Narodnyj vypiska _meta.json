@@ -1,0 +1,22 @@
+{
+  "pdf_name": "Narodnyj vypiska .pdf",
+  "pdf_path": "data/halyk_bank/halyk_individual/Narodnyj vypiska .pdf",
+  "jsonl_path": "data/halyk_bank/halyk_individual/converted_jsons/Narodnyj vypiska _pages.jsonl",
+  "flags": [
+    "closing_balance_mismatch"
+  ],
+  "validation_debug": {
+    "period_start": "26.09.2024",
+    "period_end": "26.09.2025",
+    "opening": 19.63,
+    "closing_pdf": 2446.69,
+    "closing_calc": 1164272.5699999998,
+    "total_credit": 583340.0,
+    "total_debit": -580912.94,
+    "header_credit_turnover": null,
+    "header_debit_turnover": null,
+    "footer_credit": null,
+    "footer_debit": null,
+    "tolerance": 0.01
+  }
+}

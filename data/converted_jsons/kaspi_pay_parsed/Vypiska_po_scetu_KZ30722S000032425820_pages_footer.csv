@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+60967062.42,60801252.06,1,217,29.09.2025 16:47,Губашев Зинелгабиден Тулепбергенович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 60 967 062,42 60 801 252,06', 'Итого операций за период 1 217 875', 'Отчет сформирован пользователем Губашев Зинелгабиден Тулепбергенович 29.09.2025 16:47', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

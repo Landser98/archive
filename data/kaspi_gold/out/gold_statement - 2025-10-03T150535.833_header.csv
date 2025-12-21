@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+19.09.24,19.09.25,KZ14722C000030946688,тенге,3502,Сарсенбаев Калдан Балабаевич,*3502,KZ14722C000030946688,19.09.25,52025.86,тенге

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+13071478.91,13030212.0,609,226,29.09.2025 16:40,Джолдасбеков Бағдат Пазылбекұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 13 071 478,91 13 030 212', 'Итого операций за период 609 226', 'Отчет сформирован пользователем Джолдасбеков Бағдат Пазылбекұлы 29.09.2025 16:40', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

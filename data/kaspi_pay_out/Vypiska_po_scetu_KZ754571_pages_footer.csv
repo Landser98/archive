@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+84299099.72,84285138.95,1534,586,29.09.2025 12:21,Есенбаева Меруерт Адиловна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 84 299 099,72 84 285 138,95', 'Итого операций за период 1 534 586', 'Отчет сформирован пользователем Есенбаева Меруерт Адиловна 29.09.2025 12:21', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

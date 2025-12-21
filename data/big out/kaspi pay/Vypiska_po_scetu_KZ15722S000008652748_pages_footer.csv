@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+7431348.26,7419471.5,621,391,01.10.2025 13:56,Боранбай Жанар Бериккызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 7 431 348,26 7 419 471,5', 'Итого операций за период 621 391', 'Отчет сформирован пользователем Боранбай Жанар Бериккызы 01.10.2025 13:56', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

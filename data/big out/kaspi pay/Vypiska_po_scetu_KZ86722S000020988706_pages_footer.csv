@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+63210542.92,63223891.16,1247,401,29.09.2025 12:08,Туктаров Рустам Ибрагимович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 63 210 542,92 63 223 891,16', 'Итого операций за период 1 247 401', 'Отчет сформирован пользователем Туктаров Рустам Ибрагимович 29.09.2025 12:08', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

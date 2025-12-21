@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+5133812.37,5133812.02,1,802,02.10.2025,Мавленова Аида Тугеловна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 5 133 812,37 5 133 812,02', 'Итого операций за период 1 802 878', 'Отчет сформирован пользователем Мавленова Аида Тугеловна 02.10.2025 9:50', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

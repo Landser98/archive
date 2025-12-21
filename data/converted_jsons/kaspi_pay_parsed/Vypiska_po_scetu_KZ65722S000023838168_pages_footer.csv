@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+71714542.63,71660425.68,5,129,29.09.2025 15:37,Смагулова Асия Сеитовна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 71 714 542,63 71 660 425,68', 'Итого операций за период 5 129 1 178', 'Отчет сформирован пользователем Смагулова Асия Сеитовна 29.09.2025 15:37', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

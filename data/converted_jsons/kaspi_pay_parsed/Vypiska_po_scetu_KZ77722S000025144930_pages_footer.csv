@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+7910057.07,7984507.86,1,298,29.09.2025 12:24,Смагулова Назерке Бейбітқызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 7 910 057,07 7 984 507,86', 'Итого операций за период 1 298 416', 'Отчет сформирован пользователем Смагулова Назерке Бейбітқызы 29.09.2025 12:24', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

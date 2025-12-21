@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+25338120.2,25361387.25,1726,787,30.09.2025 15:46,Аманова Айжан Меркебаевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 25 338 120,2 25 361 387,25', 'Итого операций за период 1 726 787', 'Отчет сформирован пользователем Аманова Айжан Меркебаевна 30.09.2025 15:46', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

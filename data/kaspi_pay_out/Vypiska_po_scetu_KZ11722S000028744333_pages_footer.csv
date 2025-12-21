@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+446096.65,445644.0,100,23,29.09.2025 15:27,Мусакулова Гулсим Нагашибаевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 446 096,65 445 644', 'Итого операций за период 100 23', 'Отчет сформирован пользователем Мусакулова Гулсим Нагашибаевна 29.09.2025 15:27', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

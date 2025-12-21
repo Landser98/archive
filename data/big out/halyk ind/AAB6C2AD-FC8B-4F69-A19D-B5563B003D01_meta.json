@@ -1,0 +1,22 @@
+{
+  "pdf_name": "AAB6C2AD-FC8B-4F69-A19D-B5563B003D01.pdf",
+  "pdf_path": "data/halyk_bank/halyk_individual/AAB6C2AD-FC8B-4F69-A19D-B5563B003D01.pdf",
+  "jsonl_path": "data/halyk_individual/converted_jsons/AAB6C2AD-FC8B-4F69-A19D-B5563B003D01_pages.jsonl",
+  "flags": [
+    "closing_balance_mismatch"
+  ],
+  "validation_debug": {
+    "period_start": "19.01.2025",
+    "period_end": "26.09.2025",
+    "opening": 0.0,
+    "closing_pdf": 489.0,
+    "closing_calc": 853931.0,
+    "total_credit": 427210.0,
+    "total_debit": -426721.0,
+    "header_credit_turnover": null,
+    "header_debit_turnover": null,
+    "footer_credit": null,
+    "footer_debit": null,
+    "tolerance": 0.01
+  }
+}

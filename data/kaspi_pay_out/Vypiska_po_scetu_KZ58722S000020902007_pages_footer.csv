@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+8107856.25,8101690.0,153,98,29.09.2025 11:35,Темирбаева Айгуль Еженкановна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 8 107 856,25 8 101 690', 'Итого операций за период 153 98', 'Отчет сформирован пользователем Темирбаева Айгуль Еженкановна 29.09.2025 11:35', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

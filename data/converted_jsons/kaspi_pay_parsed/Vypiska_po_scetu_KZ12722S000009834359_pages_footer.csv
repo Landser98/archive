@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+335920330.5,335859710.8,628,56,29.09.2025 15:42,Досжанова Сая Әкімжанқызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 335 920 330,5 335 859 710,8', 'Итого операций за период 628 56', 'Отчет сформирован пользователем Досжанова Сая Әкімжанқызы 29.09.2025 15:42', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

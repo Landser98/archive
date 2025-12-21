@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+29.09.24,29.09.25,KZ87722C000018765084,тенге,1335,Атыгаев Асылан Гибатович,*1335,KZ87722C000018765084,29.09.25,1632357.27,тенге

@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+25.09.24,25.09.25,KZ59722C000020910355,тенге,8670,Шаметова Калия Ерденовна,*8670,KZ59722C000020910355,25.09.25,85159.94,тенге

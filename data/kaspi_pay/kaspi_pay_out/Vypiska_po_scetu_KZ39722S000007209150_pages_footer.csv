@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+199025572.55,198613084.03,2245,550,29.09.2025 14:15,Ибрагимова Снежана Викторовна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 199 025 572,55 198 613 084,03', 'Итого операций за период 2 245 550', 'Отчет сформирован пользователем Ибрагимова Снежана Викторовна 29.09.2025 14:15', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

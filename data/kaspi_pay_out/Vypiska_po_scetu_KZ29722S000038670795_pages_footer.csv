@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+109374281.06,109366649.08,385,170,29.09.2025 12:36,Орымбаева Гүлнұр Мадерханқызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 109 374 281,06 109 366 649,08', 'Итого операций за период 385 170', 'Отчет сформирован пользователем Орымбаева Гүлнұр Мадерханқызы 29.09.2025 12:36', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

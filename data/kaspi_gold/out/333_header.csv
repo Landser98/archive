@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+24.09.24,24.09.25,KZ50722C000022001670,тенге,2599,Жеңіс Нұржарық,*2599,KZ50722C000022001670,24.09.25,41729.42,тенге

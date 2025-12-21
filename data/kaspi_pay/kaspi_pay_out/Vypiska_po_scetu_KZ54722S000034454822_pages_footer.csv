@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+5639428.32,5637994.88,1157,553,29.09.2025 13:44,Мерекенева Жанар Килымбековна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 5 639 428,32 5 637 994,88', 'Итого операций за период 1 157 553', 'Отчет сформирован пользователем Мерекенева Жанар Килымбековна 29.09.2025 13:44', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

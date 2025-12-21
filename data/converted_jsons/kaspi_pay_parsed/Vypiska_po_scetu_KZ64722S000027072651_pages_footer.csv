@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+14447054.89,14447562.0,766,183,29.09.2025 11:23,Нурпеисова Жұлдыз Қайнарқызы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 14 447 054,89 14 447 562', 'Итого операций за период 766 183', 'Отчет сформирован пользователем Нурпеисова Жұлдыз Қайнарқызы 29.09.2025 11:23', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

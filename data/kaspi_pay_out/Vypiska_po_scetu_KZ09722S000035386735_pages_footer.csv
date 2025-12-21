@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+10199821.62,10284330.5,746,377,29.09.2025 15:13,Балабеков Жандос Агабекович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 10 199 821,62 10 284 330,5', 'Итого операций за период 746 377', 'Отчет сформирован пользователем Балабеков Жандос Агабекович 29.09.2025 15:13', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

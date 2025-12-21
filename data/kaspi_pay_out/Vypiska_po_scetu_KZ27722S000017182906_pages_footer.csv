@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+24965145.5,24817953.0,442,178,30.09.2025 10:20,Елеусинов Шингиль Тулегенович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 24 965 145,5 24 817 953', 'Итого операций за период 442 178', 'Отчет сформирован пользователем Елеусинов Шингиль Тулегенович 30.09.2025 10:20', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

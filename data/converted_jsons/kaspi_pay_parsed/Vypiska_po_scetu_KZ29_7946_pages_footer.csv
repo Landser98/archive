@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+4989073.72,4995578.0,594,179,25.06.2024 17:05,Джаманбалиев Нурлан Сабырович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 4 989 073,72 4 995 578', 'Итого операций за период 594 179', 'Отчет сформирован пользователем Джаманбалиев Нурлан Сабырович 25.06.2024 17:05', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+13809395.91,13824521.0,213,108,29.09.2025 13:07,Бауыржан Санжар Әділжанұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 13 809 395,91 13 824 521', 'Итого операций за период 213 108', 'Отчет сформирован пользователем Бауыржан Санжар Әділжанұлы 29.09.2025 13:07', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

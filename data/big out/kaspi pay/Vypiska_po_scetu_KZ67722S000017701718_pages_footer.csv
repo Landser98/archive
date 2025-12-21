@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+26365244.49,26284261.5,129,50,29.09.2025 13:32,Мергенова Жадра Калилуллаевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 26 365 244,49 26 284 261,5', 'Итого операций за период 129 50', 'Отчет сформирован пользователем Мергенова Жадра Калилуллаевна 29.09.2025 13:32', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+124488876.41,124410046.78,536,266,29.09.2025 16:11,Маматаева Тахминахон Ахатжановна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 124 488 876,41 124 410 046,78', 'Итого операций за период 536 266', 'Отчет сформирован пользователем Маматаева Тахминахон Ахатжановна 29.09.2025 16:11', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

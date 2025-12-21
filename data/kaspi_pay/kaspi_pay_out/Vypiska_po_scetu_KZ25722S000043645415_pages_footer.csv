@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+3195034.0,15195220.0,69,11,29.09.2025 12:59,Чанышев Мади Бариевич,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 3 195 034 15 195 220', 'Итого операций за период 69 11', 'Отчет сформирован пользователем Чанышев Мади Бариевич 29.09.2025 12:59', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

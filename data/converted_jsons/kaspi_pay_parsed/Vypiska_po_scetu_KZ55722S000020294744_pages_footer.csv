@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+36995964.65,36996083.51,880,569,24.09.2025 13:23,Юлдашева Дилшода Моминтаевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 36 995 964,65 36 996 083,51', 'Итого операций за период 880 569', 'Отчет сформирован пользователем Юлдашева Дилшода Моминтаевна 24.09.2025 13:23', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+4093468.85,4093469.0,721,301,29.09.2025 14:51,Айтбай Данияр Айдарұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 4 093 468,85 4 093 469', 'Итого операций за период 721 301', 'Отчет сформирован пользователем Айтбай Данияр Айдарұлы 29.09.2025 14:51', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

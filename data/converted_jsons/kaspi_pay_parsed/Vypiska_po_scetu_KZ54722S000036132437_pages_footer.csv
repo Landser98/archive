@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+6737435.2,6739608.95,855,270,26.09.2025 20:37,Әлімхан Диас Досханұлы,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 6 737 435,2 6 739 608,95', 'Итого операций за период 855 270', 'Отчет сформирован пользователем Әлімхан Диас Досханұлы 26.09.2025 20:37', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+12184977.46,12469616.46,1,943,29.09.2025 11:57,Демесинов Жаксылык Конаевич,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 12 184 977,46 12 469 616,46', 'Итого операций за период 1 943 429', 'Отчет сформирован пользователем Демесинов Жаксылык Конаевич 29.09.2025 11:57', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

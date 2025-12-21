@@ -1,0 +1,18 @@
+﻿page,date,amount,operation,details,clock_icon,amount_text,txn_date,kp_person_name,kp_is_related_party,kp_outgoing_share_pct,kp_exclude_from_income,valid_for_ip_income,КНП,ip_text,ip_knp_norm,ip_op_date,ip_is_non_business_by_knp,ip_is_non_business_by_keywords,ip_is_non_business,ip_credit_amount,ip_is_business_income
+1,06.09.25,-70.0,,,False,"- 70,00 ",2025-09-06,,False,,False,True,,,,2025-09-06,False,False,False,-70.0,False
+2,15.08.25,-70.0,,,False,"- 70,00 ",2025-08-15,,False,,False,True,,,,2025-08-15,False,False,False,-70.0,False
+2,15.08.25,-70.0,,,False,"- 70,00 ₸ Зат сатып алу      Айжулдыз",2025-08-15,,False,,False,True,,,,2025-08-15,False,False,False,-70.0,False
+2,15.08.25,-70.0,,,False,"- 70,00 ",2025-08-15,,False,,False,True,,,,2025-08-15,False,False,False,-70.0,False
+24,18.07.25,-70.0,,,False,"- 70,00 ",2025-07-18,,False,,False,True,,,,2025-07-18,False,False,False,-70.0,False
+24,18.07.25,-70.0,,,False,"- 70,00 ",2025-07-18,,False,,False,True,,,,2025-07-18,False,False,False,-70.0,False
+25,17.07.25,15.88,,,False,"+ 15,88 ₸ Толықтыру      Несие ?телгеннен кейінгі а?ша?ызды? ?алды?ы",2025-07-17,,False,,False,True,,,,2025-07-17,False,False,False,15.88,True
+29,10.06.25,-70.0,,,False,"- 70,00 ",2025-06-10,,False,,False,True,,,,2025-06-10,False,False,False,-70.0,False
+30,10.06.25,-70.0,,,False,"- 70,00 ",2025-06-10,,False,,False,True,,,,2025-06-10,False,False,False,-70.0,False
+34,02.05.25,-70.0,,,False,"- 70,00 ",2025-05-02,,False,,False,True,,,,2025-05-02,False,False,False,-70.0,False
+36,26.03.25,-70.0,,,False,"- 70,00 ",2025-03-26,,False,,False,True,,,,2025-03-26,False,False,False,-70.0,False
+37,23.03.25,-70.0,,,False,"- 70,00 ₸ Зат сатып алу      Saragul",2025-03-23,,False,,False,True,,,,2025-03-23,False,False,False,-70.0,False
+37,23.03.25,-70.0,,,False,"- 70,00 ",2025-03-23,,False,,False,True,,,,2025-03-23,False,False,False,-70.0,False
+37,23.03.25,-70.0,,,False,"- 70,00 ",2025-03-23,,False,,False,True,,,,2025-03-23,False,False,False,-70.0,False
+37,23.03.25,-70.0,,,False,"- 70,00 ",2025-03-23,,False,,False,True,,,,2025-03-23,False,False,False,-70.0,False
+50,09.11.24,-70.0,,,False,"- 70,00 ",2024-11-09,,False,,False,True,,,,2024-11-09,False,False,False,-70.0,False
+51,13.10.24,-55.0,,,False,"- 55,00 ₸ Зат сатып алу      Beeline",2024-10-13,,False,,False,True,,,,2024-10-13,False,False,False,-55.0,False

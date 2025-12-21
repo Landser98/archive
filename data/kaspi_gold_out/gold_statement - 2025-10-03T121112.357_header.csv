@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+01.10.24,01.10.25,KZ58722C000028950024,тенге,5408,Қарсыбаева Салтанат Жумабекқызы,*5408,KZ58722C000028950024,01.10.25,95019.64,тенге

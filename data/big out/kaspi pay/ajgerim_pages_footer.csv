@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+12034152.98,12419000.0,1271,451,29.09.2025 14:27,Турарбекова Айгерим Толеубековна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 12 034 152,98 12 419 000', 'Итого операций за период 1 271 451', 'Отчет сформирован пользователем Турарбекова Айгерим Толеубековна 29.09.2025 14:27', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

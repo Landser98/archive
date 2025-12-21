@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+05.10.23,05.10.24,KZ60722C000016923734,тенге,0711,Шахизаданов Дамир Берикович,*0711,KZ60722C000016923734,05.10.24,1.64,тенге

@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+1204051.71,1300285.0,372,296,18.09.2025,Наурызбаева Гулнар Алпысбаевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 1 204 051,71 1 300 285', 'Итого операций за период 372 296', 'Отчет сформирован пользователем Наурызбаева Гулнар Алпысбаевна 18.09.2025 9:58', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

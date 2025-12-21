@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+01.10.24,01.10.25,KZ22722C000037689111,тенге,9081,Шахматова Лидия Михайловна,*9081,KZ22722C000037689111,01.10.25,88142.2,тенге

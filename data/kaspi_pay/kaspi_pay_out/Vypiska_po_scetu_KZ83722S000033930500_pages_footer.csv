@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+2474390.58,2526206.0,189,66,29.09.2025 13:06,Алламбергенов Рашид Жумабаевич,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 2 474 390,58 2 526 206', 'Итого операций за период 189 66', 'Отчет сформирован пользователем Алламбергенов Рашид Жумабаевич 29.09.2025 13:06', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

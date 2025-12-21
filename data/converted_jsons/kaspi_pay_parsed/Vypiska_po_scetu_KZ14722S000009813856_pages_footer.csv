@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+11372983.79,11373004.0,209,64,29.09.2025 15:52,АЛЬМАХАНОВА ЖАНБОТА АМИРЖАНОВНА,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 11 372 983,79 11 373 004', 'Итого операций за период 209 64', 'Отчет сформирован пользователем АЛЬМАХАНОВА ЖАНБОТА АМИРЖАНОВНА 29.09.2025 15:52', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

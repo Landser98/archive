@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+1173074.78,1173074.0,230,133,29.09.2025 15:37,Далиева Жансая Ескалиевна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 1 173 074,78 1 173 074', 'Итого операций за период 230 133', 'Отчет сформирован пользователем Далиева Жансая Ескалиевна 29.09.2025 15:37', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

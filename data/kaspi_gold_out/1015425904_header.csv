@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+24.09.24,24.09.25,KZ30722C000036753596,тенге,3407,Смагулов Айдарбек Талгатбекович,*3407,KZ30722C000036753596,24.09.25,93318.26,тенге

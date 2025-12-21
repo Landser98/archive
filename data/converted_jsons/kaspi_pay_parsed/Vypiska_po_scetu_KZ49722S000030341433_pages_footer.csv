@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+13464193.36,13493026.82,1,133,29.09.2025 12:26,Черкасский Антон Владимирович,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 13 464 193,36 13 493 026,82', 'Итого операций за период 1 133 545', 'Отчет сформирован пользователем Черкасский Антон Владимирович 29.09.2025 12:26', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

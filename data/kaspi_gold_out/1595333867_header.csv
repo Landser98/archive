@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+25.09.24,25.09.25,KZ59722C000034926467,тенге,3838,Доскумарова Бибигуль Тулегеновна,*3838,KZ59722C000034926467,25.09.25,209.97,тенге

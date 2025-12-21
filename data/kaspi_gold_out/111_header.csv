@@ -1,0 +1,2 @@
+﻿period_start,period_end,iban,currency,card_last4,client_name,card_mask,account_number,available_date,available_balance,account_currency_name
+24.09.24,24.09.25,KZ76722C000023034931,тенге,1362,Кеңес Жантөре Ерболұлы,*1362,KZ76722C000023034931,24.09.25,15892.18,тенге

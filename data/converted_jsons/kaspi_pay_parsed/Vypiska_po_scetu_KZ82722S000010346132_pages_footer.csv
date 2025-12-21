@@ -1,0 +1,2 @@
+﻿total_debit_turnover,total_credit_turnover,total_operations_debit,total_operations_credit,report_generated_at,report_user,servicing_bank_name,servicing_bank_bic,flags,debug_info
+8897514.14,8949822.03,486,266,29.09.2025 12:20,Амангелдина Айгерим Жусупбековна,"АО ""KASPI BANK""",CASPKZKA,[],"{'matched_footer_lines': ['Итого обороты в 8 897 514,14 8 949 822,03', 'Итого операций за период 486 266', 'Отчет сформирован пользователем Амангелдина Айгерим Жусупбековна 29.09.2025 12:20', 'Наименование и БИК обслуживающего Банка: АО ""KASPI BANK"" Бик: CASPKZKA']}"

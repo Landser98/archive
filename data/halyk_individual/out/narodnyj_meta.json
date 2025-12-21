@@ -1,0 +1,22 @@
+{
+  "pdf_name": "narodnyj.pdf",
+  "pdf_path": "data/halyk_bank/halyk_individual/narodnyj.pdf",
+  "jsonl_path": "data/halyk_individual/converted_jsons/narodnyj_pages.jsonl",
+  "flags": [
+    "closing_balance_mismatch"
+  ],
+  "validation_debug": {
+    "period_start": "18.09.2024",
+    "period_end": "18.09.2025",
+    "opening": 40053.22,
+    "closing_pdf": 744800.33,
+    "closing_calc": 21742724.79,
+    "total_credit": 11399808.84,
+    "total_debit": -10302862.73,
+    "header_credit_turnover": null,
+    "header_debit_turnover": null,
+    "footer_credit": null,
+    "footer_debit": null,
+    "tolerance": 0.01
+  }
+}
