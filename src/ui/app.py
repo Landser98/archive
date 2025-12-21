@@ -173,19 +173,29 @@ def main() -> None:
 
         # 2. Обработка сумм (обязательно создаем колонку 'amount')
         if 'amount' not in df_analysis.columns:
-            # Для Халыка сумма часто в 'Сумма операции' или 'Сумма в KZT'
-            amt_candidates = ['Сумма операции', 'Сумма в KZT', 'Сумма', 'Расход']
-            found_amt_col = next((c for c in amt_candidates if c in df_analysis.columns), None)
-
-            if found_amt_col:
-                df_analysis['amount'] = df_analysis[found_amt_col]
-            elif 'Доход' in df_analysis.columns and 'Расход' in df_analysis.columns:
-                df_analysis['amount'] = df_analysis['Доход'].fillna(0) - df_analysis['Расход'].fillna(0).abs()
+            # Специфика Kaspi Pay: Дебет и Кредит в разных колонках
+            if 'Дебет' in df_analysis.columns and 'Кредит' in df_analysis.columns:
+                df_analysis['amount'] = (
+                        pd.to_numeric(df_analysis['Кредит'], errors='coerce').fillna(0.0) -
+                        pd.to_numeric(df_analysis['Дебет'], errors='coerce').fillna(0.0)
+                )
             else:
-                df_analysis['amount'] = 0.0
+                # Для Халыка сумма часто в 'Сумма операции' или 'Сумма в KZT'
+                amt_candidates = ['Сумма операции', 'Сумма в KZT', 'Сумма', 'Расход']
+                found_amt_col = next((c for c in amt_candidates if c in df_analysis.columns), None)
+
+                if found_amt_col:
+                    df_analysis['amount'] = pd.to_numeric(df_analysis[found_amt_col], errors='coerce').fillna(0.0)
+                elif 'Доход' in df_analysis.columns and 'Расход' in df_analysis.columns:
+                    df_analysis['amount'] = (
+                            pd.to_numeric(df_analysis['Доход'], errors='coerce').fillna(0.0) -
+                            pd.to_numeric(df_analysis['Расход'], errors='coerce').fillna(0.0).abs()
+                    )
+                else:
+                    df_analysis['amount'] = 0.0
 
         # 3. Специфическая логика Халыка (очистка имен согласно ТЗ)
-        is_halyk = df_analysis['bank'].str.contains('Halyk', na=False)
+        is_halyk = df_analysis.get('bank', pd.Series([])).str.contains('Halyk', na=False)
         if is_halyk.any():
             h_desc = "Описание операции" if "Описание операции" in df_analysis.columns else actual_desc_col
             if h_desc:
@@ -206,9 +216,17 @@ def main() -> None:
                 df_analysis.loc[is_halyk, 'counterparty_id'] = df_analysis.loc[is_halyk, 'counterparty_name']
 
         # 4. Fallback для counterparty и обязательная колонка 'details'
+        # Для Kaspi Pay контрагент в колонке 'Наименование получателя'
+        cp_candidates = ['Наименование получателя', 'counterparty_name', 'Контрагент', 'Получатель']
+        actual_cp_col = next((c for c in cp_candidates if c in df_analysis.columns), None)
+
+        if actual_cp_col and 'counterparty_name' not in df_analysis.columns:
+            df_analysis['counterparty_name'] = df_analysis[actual_cp_col].fillna('N/A')
+            df_analysis['counterparty_id'] = df_analysis[actual_cp_col].fillna('N/A')
+
+        # Если имя так и не определено, берем из описания (Kaspi Gold)
         if 'counterparty_name' not in df_analysis.columns and actual_desc_col:
             df_analysis['counterparty_name'] = df_analysis[actual_desc_col].fillna('N/A')
-        if 'counterparty_id' not in df_analysis.columns and actual_desc_col:
             df_analysis['counterparty_id'] = df_analysis[actual_desc_col].fillna('N/A')
 
         if 'details' not in df_analysis.columns and actual_desc_col:
