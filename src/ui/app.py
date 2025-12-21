@@ -1,4 +1,4 @@
-# !/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 src/ui/app.py
@@ -96,7 +96,6 @@ def build_metadata_df(statements) -> pd.DataFrame:
 def ensure_txn_date(statement) -> None:
     """
     Guarantee statement.tx_df has datetime column 'txn_date'.
-    Uses IP_INCOME_CONFIG date column if possible, else fallbacks.
     """
     df = getattr(statement, "tx_df", None)
     if df is None or df.empty:
@@ -108,20 +107,13 @@ def ensure_txn_date(statement) -> None:
         statement.tx_df = df
         return
 
-    # lazy import to avoid hanging at app startup
     from src.core.ip_config import IP_INCOME_CONFIG
-
     cfg = IP_INCOME_CONFIG.get(getattr(statement, "bank", ""), {})
     date_col = cfg.get("col_op_date")
 
     candidates = [
-        date_col,
-        "Дата",
-        "date",
-        "Дата операции",
-        "Дата проводки",
-        "Дата отражения по счету",
-        "Operation date",
+        date_col, "Дата", "date", "Дата операции", "Дата проводки",
+        "Дата отражения по счету", "Operation date"
     ]
     candidates = [c for c in candidates if c and c in df.columns]
     if not candidates:
@@ -136,7 +128,7 @@ def ensure_txn_date(statement) -> None:
 # -----------------------------
 def main() -> None:
     st.set_page_config(page_title="Bank Statement Analyzer", layout="wide")
-    st.title("Bank Statement Analyzer (Prototype)")
+    st.title("Bank Statement Analyzer")
     st.caption("If you see this line, Streamlit UI is rendering ✅")
 
     init_session_state()
@@ -156,9 +148,7 @@ def main() -> None:
         if submitted:
             st.success("Session updated")
 
-    # lazy import core logic (safe after UI renders)
     from src.core.analysis import get_last_full_12m_window
-
     window_start, window_end = get_last_full_12m_window(st.session_state.anchor_date)
     st.info(f"12-month window: **{window_start} → {window_end}** (inclusive)")
 
@@ -175,15 +165,8 @@ def main() -> None:
         bank_key = st.selectbox(
             "Choose bank",
             options=[
-                "kaspi_gold",
-                "kaspi_pay",
-                "halyk_business",
-                "halyk_individual",
-                "freedom_bank",
-                "forte_bank",
-                "eurasian_bank",
-                "bcc_bank",
-                "alatau_city_bank",
+                "kaspi_gold", "kaspi_pay", "halyk_business", "halyk_individual",
+                "freedom_bank", "forte_bank", "eurasian_bank", "bcc_bank", "alatau_city_bank"
             ],
             format_func=_format_bank_label,
         )
@@ -191,66 +174,63 @@ def main() -> None:
     with col_file:
         uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
 
-    if uploaded_file is not None:
-        st.write(f"Selected: `{uploaded_file.name}`")
-
     if uploaded_file and st.button("Parse & add statement", type="primary"):
         try:
-            # lazy import to avoid startup hang
             from src.core.service import parse_statement
-
             stmnt = parse_statement(
                 bank_key=bank_key,
                 pdf_name=uploaded_file.name,
                 pdf_bytes=uploaded_file.read(),
             )
-
             ensure_txn_date(stmnt)
 
             session_iin = st.session_state.session_iin_bin
-            if session_iin is None:
-                st.session_state.session_iin_bin = stmnt.iin_bin
+            if session_iin is None or stmnt.iin_bin == session_iin or st.session_state.allow_iin_mismatch:
+                if session_iin is None:
+                    st.session_state.session_iin_bin = stmnt.iin_bin
                 st.session_state.statements.append(stmnt)
-                st.success(f"First statement added. Session ИИН/БИН = `{stmnt.iin_bin}`")
+                st.success(f"Statement added. Bank: {stmnt.bank}")
             else:
-                if stmnt.iin_bin == session_iin or st.session_state.allow_iin_mismatch:
-                    st.session_state.statements.append(stmnt)
-                    st.success("Statement added")
-                else:
-                    st.error(
-                        f"ИИН/БИН mismatch: statement=`{stmnt.iin_bin}` vs session=`{session_iin}`"
-                    )
-
+                st.error(f"ИИН/БИН mismatch: statement=`{stmnt.iin_bin}` vs session=`{session_iin}`")
         except Exception as e:
             st.exception(e)
 
-    # ===== Session overview =====
-    st.subheader("Uploaded statements")
     if not st.session_state.statements:
         st.info("No statements yet")
         return
 
+    st.subheader("Uploaded statements")
     st.dataframe(build_metadata_df(st.session_state.statements), use_container_width=True)
 
     # ===== Step 4 =====
     st.header("4. Аналитика по оборотам и аффилированным лицам")
 
     from src.core.analysis import combine_transactions, compute_ip_income_for_statement
-
-    tx_12m = combine_transactions(
-        st.session_state.statements,
-        window_start=window_start,
-        window_end=window_end,
-    )
+    tx_12m = combine_transactions(st.session_state.statements, window_start, window_end)
 
     if tx_12m.empty:
         st.warning("No transactions found in the 12-month window.")
     else:
-        # НОВЫЙ БЛОК: ТАБЛИЦЫ ТОП-9 И АФФИЛИРОВАННЫЕ ЛИЦА
         from src.ui.ui_analysis_report_generator import get_ui_analysis_tables
 
-        # Подготовка данных для анализа (колонки могут отличаться в зависимости от банка)
+        # Подготовка данных для анализа
         df_analysis = tx_12m.copy()
+
+        # НОРМАЛИЗАЦИЯ KASPI PAY
+        if (df_analysis['bank'] == 'Kaspi Pay').any():
+            # Сводим Кредит и Дебет в одну колонку amount
+            if 'Кредит' in df_analysis.columns and 'Дебет' in df_analysis.columns:
+                df_analysis['amount'] = df_analysis['Кредит'].fillna(0) - df_analysis['Дебет'].fillna(0)
+
+            # Контрагент: берем БИН/ИНН или имя из поля "Наименование получателя"
+            cp_col = "Наименование получателя"
+            if cp_col in df_analysis.columns:
+                df_analysis['counterparty_name'] = df_analysis[cp_col].fillna('N/A')
+                df_analysis['counterparty_id'] = df_analysis[cp_col].fillna('N/A')
+
+        # Заглушки для других банков, если колонки отсутствуют
+        if 'amount' not in df_analysis.columns and 'Сумма' in df_analysis.columns:
+            df_analysis['amount'] = df_analysis['Сумма']
         if 'counterparty_id' not in df_analysis.columns:
             df_analysis['counterparty_id'] = df_analysis['details'].fillna('N/A')
         if 'counterparty_name' not in df_analysis.columns:
@@ -260,7 +240,6 @@ def main() -> None:
 
         # Визуализация Топ-9
         col_debit, col_credit = st.columns(2)
-
         with col_debit:
             st.write("**Расходы (Дебет)**")
             if analysis_results["debit_top"]:
@@ -282,16 +261,13 @@ def main() -> None:
         else:
             st.info("Нет данных по аффилированным лицам")
 
-        # Конец нового блока
         st.divider()
-
         with st.expander("Посмотреть все транзакции (12 месяцев)"):
             st.dataframe(tx_12m, use_container_width=True)
 
     # IP flags + summary
     all_enriched = []
     summary_rows = []
-
     for stmnt in st.session_state.statements:
         enriched, summary = compute_ip_income_for_statement(stmnt, window_start, window_end)
         if enriched is not None and not enriched.empty:
@@ -312,21 +288,13 @@ def main() -> None:
     else:
         st.info("No income summary.")
 
-    # Kaspi related parties (старый блок, оставляем для совместимости или убираем)
-    if not tx_12m.empty and "bank" in tx_12m.columns and (tx_12m["bank"] == "Kaspi Gold").any():
+    # Kaspi related parties (старый блок)
+    if not tx_12m.empty and (tx_12m["bank"] == "Kaspi Gold").any():
         from src.utils.kaspi_gold_related_parties import summarize_kaspi_gold_persons
-
         kaspi_tx = tx_12m.loc[tx_12m["bank"] == "Kaspi Gold"].copy()
         if {"details", "amount", "txn_date"}.issubset(kaspi_tx.columns):
             with st.expander("Kaspi Gold – related parties (Legacy view)"):
-                rel_df = summarize_kaspi_gold_persons(
-                    kaspi_tx,
-                    details_col="details",
-                    amount_col="amount",
-                    date_col="txn_date",
-                    fallback_date_col="txn_date",
-                    fallback_date_format="%Y-%m-%d",
-                )
+                rel_df = summarize_kaspi_gold_persons(kaspi_tx, "details", "amount", "txn_date")
                 st.dataframe(rel_df, use_container_width=True)
 
 

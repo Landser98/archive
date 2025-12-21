@@ -5,30 +5,39 @@ import numpy as np
 def get_ui_analysis_tables(df: pd.DataFrame):
     """
     Возвращает 3 таблицы без колонки Вкл/Искл.
+    Устойчив к разным названиям колонок описания и сверхточный расчет процентов.
     """
     if df.empty:
         return {"debit_top": [], "credit_top": [], "related_parties": []}
 
     df = df.copy()
-    df['amount'] = pd.to_numeric(df['amount'], errors='coerce').fillna(0)
+    # Преобразуем суммы в float64 для максимальной точности
+    df['amount'] = pd.to_numeric(df['amount'], errors='coerce').fillna(0.0).astype(float)
 
-    # Фильтрация "Сам себе"
-    self_transfer_keywords = [
-        'со своего счета', 'между своими', 'перевод между своими',
-        'own account', 'internal transfer', 'с карты другого банка'
-    ]
-    pattern = '|'.join(self_transfer_keywords)
-    is_self_transfer = (
-            df['details'].str.contains(pattern, case=False, na=False) |
-            df.get('counterparty_name', pd.Series(dtype=str)).str.contains(pattern, case=False, na=False)
-    )
-    df = df[~is_self_transfer].copy()
+    # Определяем колонку с описанием транзакции
+    purpose_cols = ['details', 'Назначение платежа', 'Назначение', 'operation']
+    purpose_col = next((c for c in purpose_cols if c in df.columns), None)
+
+    # --- ФИЛЬТРАЦИЯ "САМ СЕБЕ" ---
+    if purpose_col:
+        self_transfer_keywords = [
+            'со своего счета', 'между своими', 'перевод между своими',
+            'own account', 'internal transfer', 'с карты другого банка'
+        ]
+        pattern = '|'.join(self_transfer_keywords)
+
+        mask_purpose = df[purpose_col].str.contains(pattern, case=False, na=False)
+        mask_name = df.get('counterparty_name', pd.Series([False] * len(df), index=df.index)).str.contains(pattern,
+                                                                                                           case=False,
+                                                                                                           na=False)
+
+        df = df[~(mask_purpose | mask_name)].copy()
 
     if df.empty:
         return {"debit_top": [], "credit_top": [], "related_parties": []}
 
-    id_col = 'counterparty_id' if 'counterparty_id' in df.columns else 'details'
-    name_col = 'counterparty_name' if 'counterparty_name' in df.columns else 'details'
+    id_col = 'counterparty_id' if 'counterparty_id' in df.columns else (purpose_col or 'amount')
+    name_col = 'counterparty_name' if 'counterparty_name' in df.columns else (purpose_col or 'amount')
 
     def get_top_9_with_others(data, is_debit=True):
         mask = data['amount'] < 0 if is_debit else data['amount'] > 0
@@ -52,16 +61,27 @@ def get_ui_analysis_tables(df: pd.DataFrame):
             }])
             top_9 = pd.concat([top_9, others_row], ignore_index=True)
 
-        top_9['% от общ'] = (top_9['abs_amount'] / total_sum * 100).round(0).astype(int).astype(
-            str) + '%' if total_sum != 0 else "0%"
-        top_9['Коэф'] = 1
+        # --- СВЕРХТОЧНЫЙ РАСЧЕТ ПРОЦЕНТОВ ---
+        def format_pct_precise(val, total):
+            if total == 0 or val == 0: return "0%"
+            p = (val / total) * 100
 
+            if p < 0.1:
+                return "<0.1%"  # Если сумма есть, но она ничтожно мала
+            if p < 1:
+                return f"{p:.1f}%"  # Например "0.2%"
+            return f"{round(p)}%"  # "25%"
+
+        top_9['% от общ'] = top_9['abs_amount'].apply(lambda x: format_pct_precise(x, total_sum))
+        # ------------------------------------
+
+        top_9['Коэф'] = 1
         label = "Ключевые поставщики" if is_debit else "Ключевые клиенты"
         result = top_9.rename(columns={name_col: label, 'abs_amount': 'Оборот'})
 
-        final_cols = [label, 'Оборот', '% от общ', 'Коэф']
-        return result[final_cols].to_dict(orient="records")
+        return result[[label, 'Оборот', '% от общ', 'Коэф']].to_dict(orient="records")
 
+    # Таблица аффилированных лиц
     df['turnover'] = df['amount'].abs()
     rp_grouped = df.groupby([id_col, name_col]).agg(
         Дебет=('amount', lambda x: x[x < 0].sum()),
@@ -71,12 +91,11 @@ def get_ui_analysis_tables(df: pd.DataFrame):
     ).reset_index()
 
     rp_grouped['Коэф'] = 1
-
     rp_result = rp_grouped.rename(columns={name_col: 'Контрагент'})
-    rp_final_cols = ['Контрагент', 'Дебет', 'Кредит', 'Сальдо', 'Оборот', 'Коэф']
+    final_rp_cols = ['Контрагент', 'Дебет', 'Кредит', 'Сальдо', 'Оборот', 'Коэф']
 
     return {
         "debit_top": get_top_9_with_others(df, is_debit=True),
         "credit_top": get_top_9_with_others(df, is_debit=False),
-        "related_parties": rp_result[rp_final_cols].to_dict(orient="records")
+        "related_parties": rp_result[final_rp_cols].to_dict(orient="records")
     }
