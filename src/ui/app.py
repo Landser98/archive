@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+# !/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 src/ui/app.py
@@ -233,7 +233,7 @@ def main() -> None:
     st.dataframe(build_metadata_df(st.session_state.statements), use_container_width=True)
 
     # ===== Step 4 =====
-    st.header("4. Produce 12-month output")
+    st.header("4. Аналитика по оборотам и аффилированным лицам")
 
     from src.core.analysis import combine_transactions, compute_ip_income_for_statement
 
@@ -243,11 +243,50 @@ def main() -> None:
         window_end=window_end,
     )
 
-    st.subheader("All transactions (12-month window)")
     if tx_12m.empty:
         st.warning("No transactions found in the 12-month window.")
     else:
-        st.dataframe(tx_12m, use_container_width=True)
+        # НОВЫЙ БЛОК: ТАБЛИЦЫ ТОП-9 И АФФИЛИРОВАННЫЕ ЛИЦА
+        from src.ui.ui_analysis_report_generator import get_ui_analysis_tables
+
+        # Подготовка данных для анализа (колонки могут отличаться в зависимости от банка)
+        df_analysis = tx_12m.copy()
+        if 'counterparty_id' not in df_analysis.columns:
+            df_analysis['counterparty_id'] = df_analysis['details'].fillna('N/A')
+        if 'counterparty_name' not in df_analysis.columns:
+            df_analysis['counterparty_name'] = df_analysis['details'].fillna('N/A')
+
+        analysis_results = get_ui_analysis_tables(df_analysis)
+
+        # Визуализация Топ-9
+        col_debit, col_credit = st.columns(2)
+
+        with col_debit:
+            st.write("**Расходы (Дебет)**")
+            if analysis_results["debit_top"]:
+                st.dataframe(pd.DataFrame(analysis_results["debit_top"]), use_container_width=True, hide_index=True)
+            else:
+                st.info("Нет данных по расходам")
+
+        with col_credit:
+            st.write("**Приходы (Кредит)**")
+            if analysis_results["credit_top"]:
+                st.dataframe(pd.DataFrame(analysis_results["credit_top"]), use_container_width=True, hide_index=True)
+            else:
+                st.info("Нет данных по приходам")
+
+        # Визуализация Аффилированных лиц
+        st.subheader("Аффилированные лица (Net расчет)")
+        if analysis_results["related_parties"]:
+            st.dataframe(pd.DataFrame(analysis_results["related_parties"]), use_container_width=True, hide_index=True)
+        else:
+            st.info("Нет данных по аффилированным лицам")
+
+        # Конец нового блока
+        st.divider()
+
+        with st.expander("Посмотреть все транзакции (12 месяцев)"):
+            st.dataframe(tx_12m, use_container_width=True)
 
     # IP flags + summary
     all_enriched = []
@@ -273,24 +312,22 @@ def main() -> None:
     else:
         st.info("No income summary.")
 
-    # Kaspi related parties
+    # Kaspi related parties (старый блок, оставляем для совместимости или убираем)
     if not tx_12m.empty and "bank" in tx_12m.columns and (tx_12m["bank"] == "Kaspi Gold").any():
         from src.utils.kaspi_gold_related_parties import summarize_kaspi_gold_persons
 
         kaspi_tx = tx_12m.loc[tx_12m["bank"] == "Kaspi Gold"].copy()
         if {"details", "amount", "txn_date"}.issubset(kaspi_tx.columns):
-            st.subheader("Kaspi Gold – related parties")
-            rel_df = summarize_kaspi_gold_persons(
-                kaspi_tx,
-                details_col="details",
-                amount_col="amount",
-                date_col="txn_date",
-                fallback_date_col="txn_date",
-                fallback_date_format="%Y-%m-%d",
-            )
-            st.dataframe(rel_df, use_container_width=True)
-        else:
-            st.info("Kaspi Gold present but missing columns for related parties.")
+            with st.expander("Kaspi Gold – related parties (Legacy view)"):
+                rel_df = summarize_kaspi_gold_persons(
+                    kaspi_tx,
+                    details_col="details",
+                    amount_col="amount",
+                    date_col="txn_date",
+                    fallback_date_col="txn_date",
+                    fallback_date_format="%Y-%m-%d",
+                )
+                st.dataframe(rel_df, use_container_width=True)
 
 
 if __name__ == "__main__":
